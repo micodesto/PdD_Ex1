@@ -4,17 +4,16 @@ public class Kata {
     }
 
     public String checkNumber(int number) {
-        String result = String.valueOf(number);
 
         if (number == 5) {
             return "fizz";
         } else {
-            return result;
+            return String.valueOf(number);
         }
     }
 
     public void generateNumber(int max) {
-        for (int i = 0; i <= max; i++) {
+        for (int i = 1; i <= max; i++) {
             System.out.println(checkNumber(i));
         }
     }
@@ -24,6 +23,6 @@ public class Kata {
     }
 
     public void run() {
-
+        generateNumber(60);
     }
 }

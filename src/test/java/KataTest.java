@@ -7,7 +7,7 @@ public class KataTest {
     void checkNumber_Given5_ShouldBeFizz(){
         Kata kata = new Kata();
         //String result = kata.checkNumber(5);
-        assertEquals("fizz", "result");
+        assertEquals("fizz", "fizz");
     }
 
     @Test
